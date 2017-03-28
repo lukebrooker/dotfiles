@@ -1,0 +1,46 @@
+fresh freshshell/fresh bin/fresh --bin
+fresh freshshell/fresh contrib/source-build.sh --file=~/.zshrc
+
+# Shell
+
+fresh robbyrussell/oh-my-zsh lib/functions.zsh
+fresh robbyrussell/oh-my-zsh lib/completion.zsh
+fresh robbyrussell/oh-my-zsh lib/directories.zsh
+fresh robbyrussell/oh-my-zsh lib/git.zsh
+fresh robbyrussell/oh-my-zsh lib/key-bindings.zsh
+fresh robbyrussell/oh-my-zsh lib/misc.zsh
+fresh robbyrussell/oh-my-zsh lib/spectrum.zsh
+fresh robbyrussell/oh-my-zsh lib/theme-and-appearance.zsh
+
+fresh aliases
+
+fresh config/nvmrc --file
+
+fresh path
+
+fresh zsh/options
+fresh zsh/completion/init
+
+fresh akatov/dotfiles zshrc/dedup-path
+
+fresh zsh/completion/zsh-completion-fpath
+fresh freshshell/fresh contrib/completion/fresh-completion.zsh --file=completion/_fresh
+fresh zsh-users/zsh-completions src/_ssh-copy-id --file=completion/_ssh-copy-id
+
+fresh zsh/zsh-syntax-highlighting
+fresh zsh-users/zsh-syntax-highlighting . --file=zsh-syntax-highlighting/
+
+fresh robbyrussell/oh-my-zsh plugins/git/git.plugin.zsh
+fresh robbyrussell/oh-my-zsh plugins/nvm/nvm.plugin.zsh
+fresh robbyrussell/oh-my-zsh plugins/yarn/yarn.plugin.zsh
+#fresh robbyrussell/oh-my-zsh plugins/npm/npm.plugin.zsh
+fresh robbyrussell/oh-my-zsh plugins/sudo/sudo.plugin.zsh
+fresh robbyrussell/oh-my-zsh plugins/autojump/autojump.plugin.zsh
+fresh zsh-users/zsh-history-substring-search . --file=plugins/zsh-history-substring-search/
+fresh zsh/plugins/history-substring-search.plugin.zsh
+
+fresh jamesottaway/dotfiles lib/pure
+fresh sindresorhus/pure pure.zsh --file=zsh/pure/prompt_pure_setup
+fresh sindresorhus/pure async.zsh --file=zsh/pure/async
+
+fresh creationix/nvm nvm.sh
