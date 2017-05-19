@@ -25,6 +25,9 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
+# Add to startup
+brew services start postgresql
+
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
