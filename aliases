@@ -5,3 +5,6 @@ alias path='echo -e ${PATH//:/\\n}'
 
 alias backup='mackup backup && brew bundle dump --force --file=~/.dotfiles/Brewfile && fresh'
 alias up='brew update && brew upgrade && fresh up'
+
+alias vi='nvim'
+alias vim='nvim'
