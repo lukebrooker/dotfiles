@@ -40,6 +40,7 @@ fresh robbyrussell/oh-my-zsh plugins/sudo/sudo.plugin.zsh
 fresh robbyrussell/oh-my-zsh plugins/autojump/autojump.plugin.zsh
 fresh zsh-users/zsh-history-substring-search . --file=plugins/zsh-history-substring-search/
 fresh zsh/plugins/history-substring-search.plugin.zsh
+fresh dijitalmunky/nvm-auto nvm-auto.plugin.zsh
 
 fresh jamesottaway/dotfiles lib/pure
 fresh sindresorhus/pure pure.zsh --file=zsh/pure/prompt_pure_setup
