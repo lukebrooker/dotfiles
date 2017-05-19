@@ -1,93 +1,94 @@
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
-tap 'homebrew/bundle'
-tap 'homebrew/core'
-tap 'neovim/neovim'
-brew 'autoconf'
-brew 'automake'
-brew 'awscli'
-brew 'boost'
-brew 'cmake'
-brew 'ctags'
-brew 'curl'
-brew 'openssl'
-brew 'jpeg'
-brew 'libpng'
-brew 'libtiff'
-brew 'wxmac'
-brew 'erlang'
-brew 'elixir'
-brew 'gdbm'
-brew 'gettext'
-brew 'gist'
-brew 'git'
-brew 'git-extras'
-brew 'lua'
-brew 'highlight'
-brew 'hub'
-brew 'icu4c'
-brew 'jemalloc'
-brew 'libtermkey'
-brew 'libtool'
-brew 'libuv'
-brew 'libvterm'
-brew 'mackup'
-brew 'mas'
-brew 'msgpack'
-brew 'node'
-brew 'nvm'
-brew 'pcre'
-brew 'pkg-config'
-brew 'xz'
-brew 'the_silver_searcher'
-brew 'unibilium'
-brew 'wget'
-brew 'yarn'
-brew 'zsh'
-brew 'neovim/neovim/neovim'
-cask '1password'
-cask 'adobe-creative-cloud'
-cask 'alfred'
-cask 'atom'
-cask 'bartender'
-cask 'betterzipql'
-cask 'colorpicker-skalacolor'
-cask 'controlplane'
-cask 'dash'
-cask 'dropbox'
-cask 'evernote'
-cask 'fantastical'
-cask 'firefox'
-cask 'font-source-code-pro'
-cask 'framer'
-cask 'google-chrome'
-cask 'google-drive'
-cask 'google-play-music-desktop-player'
-cask 'hyperswitch'
-cask 'istat-menus'
-cask 'iterm2'
-cask 'knock'
-cask 'macdown'
-cask 'moom'
-cask 'noun-project'
-cask 'omnifocus'
-cask 'qlcolorcode'
-cask 'qlmarkdown'
-cask 'qlstephen'
-cask 'quicklook-csv'
-cask 'quicklook-json'
-cask 'rightfont'
-cask 'sip'
-cask 'sketch'
-cask 'sketch-toolbox'
-cask 'slack'
-cask 'soulver'
-cask 'sourcetree'
-cask 'superduper'
-cask 'vlc'
-mas 'Airmail 3', id: 918858936
-mas 'Day One', id: 1055511498
-mas 'GIPHY CAPTURE', id: 668208984
-mas 'Icon Slate', id: 439697913
-mas 'MindNode', id: 992076693
-mas 'Polarr Photo Editor', id: 1058273036
+tap "caskroom/cask"
+tap "caskroom/fonts"
+tap "caskroom/versions"
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "neovim/neovim"
+brew "automake"
+brew "awscli"
+brew "bison"
+brew "chruby"
+brew "coreutils"
+brew "ctags"
+brew "curl"
+brew "openssl"
+brew "elixir"
+brew "gdbm"
+brew "gist"
+brew "git"
+brew "git-extras"
+brew "highlight"
+brew "hub"
+brew "libffi"
+brew "libyaml"
+brew "mackup"
+brew "mas"
+brew "nvm"
+brew "pkg-config"
+brew "readline"
+brew "postgresql", restart_service: true
+brew "ruby-install"
+brew "the_silver_searcher"
+brew "wget"
+brew "yarn"
+brew "zsh"
+brew "neovim/neovim/neovim"
+cask "1password"
+cask "adobe-creative-cloud"
+cask "alfred"
+cask "atom"
+cask "atom-beta"
+cask "audio-hijack"
+cask "bartender"
+cask "betterzipql"
+cask "colorpicker-skalacolor"
+cask "controlplane"
+cask "dash"
+cask "dropbox"
+cask "evernote"
+cask "fantastical"
+cask "firefox"
+cask "font-source-code-pro"
+cask "framer"
+cask "google-chrome"
+cask "google-drive"
+cask "google-play-music-desktop-player"
+cask "hyper"
+cask "hyperswitch"
+cask "istat-menus"
+cask "iterm2"
+cask "knock"
+cask "macdown"
+cask "moom"
+cask "noun-project"
+cask "now"
+cask "nudgit"
+cask "omnifocus"
+cask "qlcolorcode"
+cask "qlmarkdown"
+cask "qlstephen"
+cask "quicklook-csv"
+cask "quicklook-json"
+cask "rightfont"
+cask "rocket"
+cask "sip"
+cask "skala-preview"
+cask "sketch"
+cask "sketch-toolbox"
+cask "skype-for-business"
+cask "slack"
+cask "soulver"
+cask "sourcetree"
+cask "superduper"
+cask "vlc"
+mas "Airmail 3", id: 918858936
+mas "Bear", id: 1091189122
+mas "Day One", id: 1055511498
+mas "GIPHY CAPTURE", id: 668208984
+mas "Icon Slate", id: 439697913
+mas "MindNode", id: 992076693
+mas "Moom", id: 419330170
+mas "Polarr Photo Editor", id: 1058273036
+mas "Things3", id: 904280696
+mas "Twitter", id: 409789998
