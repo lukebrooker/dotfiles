@@ -42,8 +42,17 @@ fresh zsh-users/zsh-history-substring-search . --file=plugins/zsh-history-substr
 fresh zsh/plugins/history-substring-search.plugin.zsh
 fresh dijitalmunky/nvm-auto nvm-auto.plugin.zsh
 
+# NVM lazy load
+# export NVM_LAZY_LOAD=true
+# export NVM_AUTO_USE=true
+# fresh lukechilds/zsh-nvm zsh-nvm.plugin.zsh
+
 fresh jamesottaway/dotfiles lib/pure
 fresh sindresorhus/pure pure.zsh --file=zsh/pure/prompt_pure_setup
 fresh sindresorhus/pure async.zsh --file=zsh/pure/async
 
 fresh creationix/nvm nvm.sh
+
+# Themes
+
+fresh themes/themer-vscode/theme-themer-vscode --file=~/.vscode/extensions/theme-themer-vscode/

@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build-theme": "themer -c theme.js -t themer-vim -t themer-hyper -t themer-atom-syntax -t themer-iterm -t themer-vscode -t themer-wallpaper-block-wave -o themes"
+  },
+  "dependencies": {
+    "themer": "^2.2.0",
+    "themer-atom-syntax": "^1.0.2",
+    "themer-hyper": "^2.0.2",
+    "themer-iterm": "^1.0.3",
+    "themer-vim": "^2.2.6",
+    "themer-vscode": "^1.0.3",
+    "themer-wallpaper-block-wave": "^1.0.4"
+  }
+}
